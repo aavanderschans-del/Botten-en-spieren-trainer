@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botten en Spieren Trainer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bone: {
+                50: '#f9f9f7',
+                100: '#efefe9',
+                200: '#e0e0d6',
+                300: '#cabbb9',
+                500: '#9ca3af', 
+                600: '#4b5563',
+              },
+              muscle: {
+                50: '#fff5f5',
+                100: '#ffe3e3',
+                500: '#EC1C24', // Deltion Red
+                600: '#C4121A', // Darker Deltion Red
+                700: '#9B0E14',
+              },
+              deltion: {
+                red: '#EC1C24',
+                orange: '#F39200',
+                grey: '#333333'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "recharts": "https://esm.sh/recharts@^3.6.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 text-slate-900 font-sans">
+    <div id="root"></div>
+  </body>
+</html>
